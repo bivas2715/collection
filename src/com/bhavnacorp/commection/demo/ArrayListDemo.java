@@ -14,9 +14,9 @@ public class ArrayListDemo {
         list.add("Abhi");
         list.add("raj");
         list.add("bivas");
-        list.add("himanshi");
-        list.add(3);
-        list.add(3.8);
+        list.add("harry");
+      //  list.add(3);
+       // list.add(3.8);
 
         System.out.println("----------- Inserted data-----------   "+list);
         System.out.println("----------Fetching record on the basis of index-----------");
@@ -39,8 +39,8 @@ public class ArrayListDemo {
 
         //Add  all
         List list2 = new ArrayList();
-        list2.add("kavita");
-        list2.add("dhaka");
+        list2.add("Bivas");
+        list2.add("Dey");
 
      //   list.addAll(list2);
         list.addAll(1,list2);
@@ -57,7 +57,7 @@ public class ArrayListDemo {
         System.out.println(size);
 
         List<String> list3 = new ArrayList<String>();
-        list3.add("kavita");
+        list3.add("");
         list3.add("abcd");
      //   list3.add(3);
 
